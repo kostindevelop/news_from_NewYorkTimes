@@ -22,11 +22,12 @@ class NewsCell: UICollectionViewCell {
         // Initialization code
     }
     
-    func configuredCellWith() {
-        
+    func configuredCellWith(news: Result) {
+        lbNewsTitle.text = news.title
+        lbNewsDescription.text = news.abstract
     }
     
-    @IBAction func didTabAddNewsToFavouritesButton(_ sender: IBAction) {
+    @IBAction func didTabAddNewsToFavouritesButton(_ sender: UIButton) {
         // TODO - Add news to favourites
         print("didTabAddNewsToFavouritesButton")
     }
