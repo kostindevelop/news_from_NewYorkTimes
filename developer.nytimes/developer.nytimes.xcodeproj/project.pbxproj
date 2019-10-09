@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5AED336234E814500CBF29B /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AED334234E814500CBF29B /* NewsCell.swift */; };
+		B5AED337234E814500CBF29B /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5AED335234E814500CBF29B /* NewsCell.xib */; };
 		B5B973A1234E03A500265714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B973A0234E03A500265714 /* AppDelegate.swift */; };
 		B5B973A8234E03A500265714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B973A6234E03A500265714 /* Main.storyboard */; };
 		B5B973AB234E03A500265714 /* developer_nytimes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5B973A9234E03A500265714 /* developer_nytimes.xcdatamodeld */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5AED334234E814500CBF29B /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		B5AED335234E814500CBF29B /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
 		B5B9739D234E03A500265714 /* developer.nytimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = developer.nytimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B973A0234E03A500265714 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5B973A7234E03A500265714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -37,6 +41,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5AED329234E1E9900CBF29B /* SharedNewsScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SharedNewsScreen;
+			sourceTree = "<group>";
+		};
+		B5AED32A234E1EA000CBF29B /* ViewedNewsScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewedNewsScreen;
+			sourceTree = "<group>";
+		};
+		B5AED32B234E1EA400CBF29B /* EmailedNewsScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EmailedNewsScreen;
+			sourceTree = "<group>";
+		};
+		B5AED32C234E1F0B00CBF29B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5AED32D234E80C000CBF29B /* NewsCell */ = {
+			isa = PBXGroup;
+			children = (
+				B5AED334234E814500CBF29B /* NewsCell.swift */,
+				B5AED335234E814500CBF29B /* NewsCell.xib */,
+			);
+			path = NewsCell;
+			sourceTree = "<group>";
+		};
 		B5B97394234E03A500265714 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +97,7 @@
 		B5B9739F234E03A500265714 /* developer.nytimes */ = {
 			isa = PBXGroup;
 			children = (
+				B5AED32C234E1F0B00CBF29B /* Model */,
 				B5B973BA234E05B800265714 /* Services */,
 				B5B973B9234E051000265714 /* Sources */,
 				B5B973B8234E050C00265714 /* Resources */,
@@ -85,8 +127,8 @@
 		B5B973B9234E051000265714 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				B5F4229D234E1DA90052BFB6 /* MainTabBarScreen */,
 				B5B973A0234E03A500265714 /* AppDelegate.swift */,
-				B5B973A6234E03A500265714 /* Main.storyboard */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -97,6 +139,26 @@
 				B5B973BB234E05C900265714 /* Networker.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		B5F4229D234E1DA90052BFB6 /* MainTabBarScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B5AED32D234E80C000CBF29B /* NewsCell */,
+				B5AED32B234E1EA400CBF29B /* EmailedNewsScreen */,
+				B5AED32A234E1EA000CBF29B /* ViewedNewsScreen */,
+				B5AED329234E1E9900CBF29B /* SharedNewsScreen */,
+				B5F4229F234E1DDA0052BFB6 /* View */,
+			);
+			path = MainTabBarScreen;
+			sourceTree = "<group>";
+		};
+		B5F4229F234E1DDA0052BFB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5B973A6234E03A500265714 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +221,7 @@
 			files = (
 				B5B973B0234E03A600265714 /* LaunchScreen.storyboard in Resources */,
 				B5B973AD234E03A600265714 /* Assets.xcassets in Resources */,
+				B5AED337234E814500CBF29B /* NewsCell.xib in Resources */,
 				B5B973A8234E03A500265714 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5AED336234E814500CBF29B /* NewsCell.swift in Sources */,
 				B5B973AB234E03A500265714 /* developer_nytimes.xcdatamodeld in Sources */,
 				B5B973A1234E03A500265714 /* AppDelegate.swift in Sources */,
 				B5B973BC234E05C900265714 /* Networker.swift in Sources */,
@@ -318,7 +382,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UH5E4S62N6;
-				INFOPLIST_FILE = developer.nytimes/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/developer.nytimes/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -337,7 +401,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UH5E4S62N6;
-				INFOPLIST_FILE = developer.nytimes/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/developer.nytimes/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
