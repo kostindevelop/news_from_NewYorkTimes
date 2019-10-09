@@ -8,24 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		B5B973A1234E03A500265714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B973A0234E03A500265714 /* AppDelegate.swift */; };
-		B5B973A3234E03A500265714 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B973A2234E03A500265714 /* SceneDelegate.swift */; };
-		B5B973A5234E03A500265714 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B973A4234E03A500265714 /* ViewController.swift */; };
 		B5B973A8234E03A500265714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B973A6234E03A500265714 /* Main.storyboard */; };
 		B5B973AB234E03A500265714 /* developer_nytimes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5B973A9234E03A500265714 /* developer_nytimes.xcdatamodeld */; };
 		B5B973AD234E03A600265714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B973AC234E03A600265714 /* Assets.xcassets */; };
 		B5B973B0234E03A600265714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B973AE234E03A600265714 /* LaunchScreen.storyboard */; };
+		B5B973BC234E05C900265714 /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B973BB234E05C900265714 /* Networker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B5B9739D234E03A500265714 /* developer.nytimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = developer.nytimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B973A0234E03A500265714 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5B973A2234E03A500265714 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B5B973A4234E03A500265714 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B5B973A7234E03A500265714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5B973AA234E03A500265714 /* developer_nytimes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = developer_nytimes.xcdatamodel; sourceTree = "<group>"; };
 		B5B973AC234E03A600265714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5B973AF234E03A600265714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5B973B1234E03A600265714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B973BB234E05C900265714 /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +56,47 @@
 		B5B9739F234E03A500265714 /* developer.nytimes */ = {
 			isa = PBXGroup;
 			children = (
-				B5B973A0234E03A500265714 /* AppDelegate.swift */,
-				B5B973A2234E03A500265714 /* SceneDelegate.swift */,
-				B5B973A4234E03A500265714 /* ViewController.swift */,
-				B5B973A6234E03A500265714 /* Main.storyboard */,
+				B5B973BA234E05B800265714 /* Services */,
+				B5B973B9234E051000265714 /* Sources */,
+				B5B973B8234E050C00265714 /* Resources */,
+				B5B973B7234E050A00265714 /* Common */,
+			);
+			path = developer.nytimes;
+			sourceTree = "<group>";
+		};
+		B5B973B7234E050A00265714 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B5B973B8234E050C00265714 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				B5B973AC234E03A600265714 /* Assets.xcassets */,
 				B5B973AE234E03A600265714 /* LaunchScreen.storyboard */,
 				B5B973B1234E03A600265714 /* Info.plist */,
 				B5B973A9234E03A500265714 /* developer_nytimes.xcdatamodeld */,
 			);
-			path = developer.nytimes;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B5B973B9234E051000265714 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B5B973A0234E03A500265714 /* AppDelegate.swift */,
+				B5B973A6234E03A500265714 /* Main.storyboard */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B5B973BA234E05B800265714 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B5B973BB234E05C900265714 /* Networker.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +171,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5B973AB234E03A500265714 /* developer_nytimes.xcdatamodeld in Sources */,
-				B5B973A5234E03A500265714 /* ViewController.swift in Sources */,
 				B5B973A1234E03A500265714 /* AppDelegate.swift in Sources */,
-				B5B973A3234E03A500265714 /* SceneDelegate.swift in Sources */,
+				B5B973BC234E05C900265714 /* Networker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UH5E4S62N6;
 				INFOPLIST_FILE = developer.nytimes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +338,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UH5E4S62N6;
 				INFOPLIST_FILE = developer.nytimes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
