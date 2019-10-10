@@ -64,12 +64,12 @@ extension EmailedController: UICollectionViewDataSource {
 extension EmailedController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let width = collectionView.frame.width - 24
-        return CGSize(width: width, height: 170)
+        return CGSize(width: width, height: 115)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
         return UIEdgeInsets(top: 24
-            , left: 24, bottom: 20, right: 24)
+            , left: 0, bottom: 20, right: 0)
     }
     
 }

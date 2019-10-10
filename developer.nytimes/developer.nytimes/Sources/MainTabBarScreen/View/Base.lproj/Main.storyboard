@@ -19,7 +19,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="tlH-X4-3Sw">
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="U2C-LD-R7C">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="U2C-LD-R7C">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -41,7 +41,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Tss-jL-HVZ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Shared" id="rh2-gp-zkk"/>
+                    <tabBarItem key="tabBarItem" title="Shared" image="iconShared" id="rh2-gp-zkk"/>
                     <connections>
                         <outlet property="collectionView" destination="tlH-X4-3Sw" id="ABU-lO-TRk"/>
                     </connections>
@@ -58,10 +58,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="8GL-RD-IBI">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="pYK-4k-7j8">
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="eIX-9A-cRr">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="KqC-Sa-w4H">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -69,23 +69,25 @@
                                 </collectionViewFlowLayout>
                                 <cells/>
                                 <connections>
-                                    <outlet property="dataSource" destination="cB1-Bz-Ko4" id="viH-vf-EBW"/>
-                                    <outlet property="delegate" destination="cB1-Bz-Ko4" id="IRV-vj-LeC"/>
+                                    <outlet property="dataSource" destination="cB1-Bz-Ko4" id="V6X-at-SgG"/>
+                                    <outlet property="delegate" destination="cB1-Bz-Ko4" id="lBm-yY-rxI"/>
                                 </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="8GL-RD-IBI" firstAttribute="top" secondItem="ymR-NL-Aoq" secondAttribute="top" id="Rrg-Of-fu5"/>
-                            <constraint firstItem="ymR-NL-Aoq" firstAttribute="bottom" secondItem="8GL-RD-IBI" secondAttribute="bottom" id="Tj7-At-POL"/>
-                            <constraint firstItem="ymR-NL-Aoq" firstAttribute="trailing" secondItem="8GL-RD-IBI" secondAttribute="trailing" id="dwv-hK-aGc"/>
-                            <constraint firstItem="8GL-RD-IBI" firstAttribute="leading" secondItem="ymR-NL-Aoq" secondAttribute="leading" id="gsm-mO-aOy"/>
+                            <constraint firstItem="ymR-NL-Aoq" firstAttribute="bottom" secondItem="pYK-4k-7j8" secondAttribute="bottom" id="51f-p3-kWV"/>
+                            <constraint firstItem="ymR-NL-Aoq" firstAttribute="trailing" secondItem="pYK-4k-7j8" secondAttribute="trailing" id="duY-ND-DKm"/>
+                            <constraint firstItem="pYK-4k-7j8" firstAttribute="top" secondItem="ymR-NL-Aoq" secondAttribute="top" id="tKk-id-0f8"/>
+                            <constraint firstItem="pYK-4k-7j8" firstAttribute="leading" secondItem="ymR-NL-Aoq" secondAttribute="leading" id="yiu-BN-CCX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ymR-NL-Aoq"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Viewed" id="8sx-Fd-iBt"/>
+                    <tabBarItem key="tabBarItem" title="Viewed" image="iconViewed" id="8sx-Fd-iBt">
+                        <color key="badgeColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </tabBarItem>
                     <connections>
-                        <outlet property="collectionView" destination="8GL-RD-IBI" id="Hci-8M-UJ7"/>
+                        <outlet property="collectionView" destination="pYK-4k-7j8" id="RV9-DK-twC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mrl-tA-Pqi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -125,7 +127,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Rtg-hr-sj0"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Emailed" id="VlI-h1-eIP"/>
+                    <tabBarItem key="tabBarItem" title="Emailed" image="iconEmailed" id="VlI-h1-eIP"/>
                     <connections>
                         <outlet property="collectionView" destination="eu7-zA-afl" id="2JL-jx-N1W"/>
                     </connections>
@@ -183,11 +185,17 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YuS-bo-CRD"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Favourites" id="Nm4-xc-Aub"/>
+                    <tabBarItem key="tabBarItem" title="Favourites" image="iconFavourites" id="Nm4-xc-Aub"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EAt-Ob-pFX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-942" y="-725"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="iconEmailed" width="16" height="16"/>
+        <image name="iconFavourites" width="16" height="16"/>
+        <image name="iconShared" width="16" height="16"/>
+        <image name="iconViewed" width="16" height="16"/>
+    </resources>
 </document>
