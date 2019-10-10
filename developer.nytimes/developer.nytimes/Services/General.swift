@@ -9,5 +9,5 @@
 import Foundation
 
 class General {
-    static let baseURL = "https://api.nytimes.com/svc/mostpopular/v2/"
+    static let baseURL = "https://api.nytimes.com/svc/mostpopular/v2"
 }

@@ -5,7 +5,7 @@
 //  Created by Konstantin Igorevich on 10.10.2019.
 //  Copyright © 2019 Konstantin Igorevich. All rights reserved.
 //
-//   let newsModel = try? SONDecoder().decode(NewsModel.self, from: jsonData)
+//   let newsModel = try? JSONDecoder().decode(NewsModel.self, from: jsonData)
 
 import Foundation
 

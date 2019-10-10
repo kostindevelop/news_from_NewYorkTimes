@@ -13,6 +13,8 @@ private let newsCellIdentifire = "NewsCell"
 
 class EmailedController: UIViewController {
     
+    private let networker = Networker()
+    
     @IBOutlet weak var collectionView: UICollectionView!
     
     var newsModel: NewsModel? {
@@ -24,14 +26,8 @@ class EmailedController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.register(UINib(nibName: newsCellIdentifire, bundle: nil), forCellWithReuseIdentifier: newsCellIdentifire)
-        if let path = Bundle.main.path(forResource: "News", ofType: "json") {
-            do {
-                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-                let newsModel = try? JSONDecoder().decode(NewsModel.self, from: data)
-                self.newsModel = newsModel
-              } catch {
-                   // handle error
-              }
+        networker.getNews(with: .emailed) { (news) in
+            self.newsModel = news
         }
     }
 }
