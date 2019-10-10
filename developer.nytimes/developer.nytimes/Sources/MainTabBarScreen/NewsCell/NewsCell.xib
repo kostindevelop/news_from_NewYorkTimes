@@ -20,7 +20,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Wa-rt-aoI">
                         <rect key="frame" x="0.0" y="0.0" width="420" height="127"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HCN-yB-EFA">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HCN-yB-EFA" customClass="CacheImageView" customModule="developer_nytimes" customModuleProvider="target">
                                 <rect key="frame" x="24" y="13.5" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="sz7-Ji-hCJ"/>
@@ -77,13 +77,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="7o6-gI-7PL">
+                                <rect key="frame" x="64" y="53.5" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="7o6-gI-7PL" firstAttribute="centerX" secondItem="HCN-yB-EFA" secondAttribute="centerX" id="1pZ-rk-09Y"/>
                             <constraint firstItem="HCN-yB-EFA" firstAttribute="centerY" secondItem="4Wa-rt-aoI" secondAttribute="centerY" id="211-89-HOe"/>
                             <constraint firstItem="7cn-NZ-RWK" firstAttribute="width" secondItem="lks-T1-81Y" secondAttribute="width" id="8Zg-o3-SMe"/>
                             <constraint firstItem="lks-T1-81Y" firstAttribute="top" secondItem="HCN-yB-EFA" secondAttribute="top" id="IVF-ye-SeD"/>
                             <constraint firstItem="Ytt-wl-Suz" firstAttribute="width" secondItem="7cn-NZ-RWK" secondAttribute="width" id="LPV-VQ-WyF"/>
+                            <constraint firstItem="7o6-gI-7PL" firstAttribute="centerY" secondItem="HCN-yB-EFA" secondAttribute="centerY" id="TPJ-4u-Shf"/>
                             <constraint firstAttribute="trailing" secondItem="lks-T1-81Y" secondAttribute="trailing" constant="24" id="UA2-YQ-6a6"/>
                             <constraint firstItem="oM8-3a-VvN" firstAttribute="leading" secondItem="HCN-yB-EFA" secondAttribute="trailing" constant="10" id="ZLj-Bi-3rP"/>
                             <constraint firstItem="Ytt-wl-Suz" firstAttribute="top" secondItem="7cn-NZ-RWK" secondAttribute="bottom" id="Zni-cq-sLu"/>
@@ -109,6 +114,7 @@
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="420" height="127"/>
             <connections>
+                <outlet property="activityIndicator" destination="7o6-gI-7PL" id="A6j-hm-6Hz"/>
                 <outlet property="btFavourites" destination="lks-T1-81Y" id="LaI-2H-gN2"/>
                 <outlet property="imgNews" destination="HCN-yB-EFA" id="8cB-DZ-KUW"/>
                 <outlet property="lbNewsDay" destination="7cn-NZ-RWK" id="ibt-SV-8BS"/>

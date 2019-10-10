@@ -1,0 +1,1288 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2019 The New York Times Company.  All Rights Reserved.",
+    "num_results": 777,
+    "results": [
+        {
+            "url": "https://www.nytimes.com/2019/09/18/magazine/boeing-737-max-crashes.html",
+            "adx_keywords": "Aviation Accidents, Safety and Disasters;Boeing 737 Max Groundings and Safety Concerns (2019);Lion Air;Indonesia;Pilots;Boeing Company;Airbus Industrie;Ethiopian Airlines",
+            "subsection": "",
+            "email_count": 1,
+            "count_type": "EMAILED",
+            "column": "Feature",
+            "eta_id": 0,
+            "section": "Magazine",
+            "id": 100000006717413,
+            "asset_id": 100000006717413,
+            "nytdsection": "magazine",
+            "byline": "By WILLIAM LANGEWIESCHE",
+            "type": "Article",
+            "title": "What Really Brought Down the Boeing 737 Max?",
+            "abstract": "Malfunctions caused two deadly crashes. But an industry that puts unprepared pilots in the cockpit is just as guilty.",
+            "published_date": "2019-09-18",
+            "source": "The New York Times",
+            "updated": "2019-10-02 16:10:35",
+            "des_facet": [
+                "AVIATION ACCIDENTS, SAFETY AND DISASTERS",
+                "BOEING 737 MAX GROUNDINGS AND SAFETY CONCERNS (2019)"
+            ],
+            "org_facet": [
+                "LION AIR",
+                "PILOTS",
+                "BOEING COMPANY",
+                "AIRBUS INDUSTRIE",
+                "ETHIOPIAN AIRLINES"
+            ],
+            "per_facet": "",
+            "geo_facet": [
+                "INDONESIA"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Photo illustration by Matt Dorfman",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/29/magazine/29mag-boeing2/29mag-boeing2-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/29/magazine/29mag-boeing2/29mag-boeing2-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/29/magazine/29mag-boeing2/29mag-boeing2-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/81cb3ca0-18ad-5d56-8b5d-67885bf25e3d"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/09/11/health/cancer-drugs-proteins.html",
+            "adx_keywords": "Clinical Trials;Drugs (Pharmaceuticals);Breast Cancer;Proteins;Cancer;DNA (Deoxyribonucleic Acid);Biology and Biochemistry;Cold Spring Harbor Laboratory;Science Translational Medicine (Journal);your-feed-science;your-feed-health",
+            "subsection": "",
+            "email_count": 2,
+            "count_type": "EMAILED",
+            "column": "Matter",
+            "eta_id": 0,
+            "section": "Science",
+            "id": 100000006709955,
+            "asset_id": 100000006709955,
+            "nytdsection": "science",
+            "byline": "By CARL ZIMMER",
+            "type": "Article",
+            "title": "Why Aren’t Cancer Drugs Better? The Targets Might Be Wrong",
+            "abstract": "Drugs can stop cancer cells if they attack the right proteins. But many of these targets were chosen with dated, imprecise technology, a new study suggests.",
+            "published_date": "2019-09-11",
+            "source": "The New York Times",
+            "updated": "2019-09-17 05:05:44",
+            "des_facet": [
+                "CLINICAL TRIALS",
+                "DRUGS (PHARMACEUTICALS)",
+                "BREAST CANCER",
+                "YOUR-FEED-SCIENCE",
+                "YOUR-FEED-HEALTH"
+            ],
+            "org_facet": [
+                "PROTEINS",
+                "CANCER",
+                "DNA (DEOXYRIBONUCLEIC ACID)",
+                "BIOLOGY AND BIOCHEMISTRY",
+                "COLD SPRING HARBOR LABORATORY",
+                "SCIENCE TRANSLATIONAL MEDICINE (JOURNAL)"
+            ],
+            "per_facet": "",
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": null,
+                    "copyright": null,
+                    "approved_for_syndication": 0,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/11/09/science/11SCI-MATTER-CANCER-image/11SCI-MATTER-CANCER-image-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/11/09/science/11SCI-MATTER-CANCER-image/11SCI-MATTER-CANCER-image-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/11/09/science/11SCI-MATTER-CANCER-image/11SCI-MATTER-CANCER-image-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/267355a7-2013-5d1f-8127-1bb4d5744714"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/09/16/well/mind/the-temporary-memory-lapse-of-transient-global-amnesia.html",
+            "adx_keywords": "Memory;Amnesia;Stroke;Psychology and Psychologists;Headaches;Brain",
+            "subsection": "mind",
+            "email_count": 3,
+            "count_type": "EMAILED",
+            "column": "Personal Health",
+            "eta_id": 0,
+            "section": "Well",
+            "id": 100000006651293,
+            "asset_id": 100000006651293,
+            "nytdsection": "well",
+            "byline": "By JANE E. BRODY",
+            "type": "Article",
+            "title": "The Temporary Memory Lapse of Transient Global Amnesia",
+            "abstract": "Those with T.G.A. do not experience any alteration in consciousness or abnormal movements. Only the ability to lay down memories is affected.",
+            "published_date": "2019-09-16",
+            "source": "The New York Times",
+            "updated": "2019-09-17 20:34:02",
+            "des_facet": [
+                "MEMORY",
+                "AMNESIA",
+                "STROKE",
+                "PSYCHOLOGY AND PSYCHOLOGISTS"
+            ],
+            "org_facet": [
+                "HEADACHES",
+                "BRAIN"
+            ],
+            "per_facet": "",
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Gracia Lam",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/17/well/17BRODYAMNESIA/17BRODYAMNESIA-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/17/well/17BRODYAMNESIA/17BRODYAMNESIA-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/17/well/17BRODYAMNESIA/17BRODYAMNESIA-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/8684b34c-6052-5314-922d-8dd3a8225378"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/09/26/travel/what-to-do-36-hours-in-dublin.html",
+            "adx_keywords": "Travel and Vacations;Dublin (Ireland)",
+            "subsection": "",
+            "email_count": 4,
+            "count_type": "EMAILED",
+            "column": "36 Hours",
+            "eta_id": 0,
+            "section": "Travel",
+            "id": 100000006712435,
+            "asset_id": 100000006712435,
+            "nytdsection": "travel",
+            "byline": "By NELL McSHANE WULFHART",
+            "type": "Article",
+            "title": "36 Hours in Dublin",
+            "abstract": "A vibrant culture of Irish food, crafts, booze, literature and music offers a weekend of diversions, but it’s Dublin’s complex history and its welcoming spirit that will linger longest.",
+            "published_date": "2019-09-26",
+            "source": "The New York Times",
+            "updated": "2019-09-26 10:57:32",
+            "des_facet": "",
+            "org_facet": [
+                "TRAVEL AND VACATIONS"
+            ],
+            "per_facet": "",
+            "geo_facet": [
+                "DUBLIN (IRELAND)"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The National Museum of Ireland-Decorative Arts & History features some of the country’s greatest treasures, with displays on historical events, fashion, furnishings, Irish design and more.",
+                    "copyright": "Andy Haslam for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/26/travel/26Hours-Dublin2/26Hours-Dublin2-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/26/travel/26Hours-Dublin2/26Hours-Dublin2-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/26/travel/26Hours-Dublin2/26Hours-Dublin2-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/63dc76a5-0879-5843-95c4-6a6b60760de1"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/09/24/science/cats-humans-bonding.html",
+            "adx_keywords": "Animal Behavior;Cats;Dogs;Anxiety and Stress;Families and Family Life;Love (Emotion);Current Biology (Journal);Oregon State University",
+            "subsection": "",
+            "email_count": 5,
+            "count_type": "EMAILED",
+            "column": null,
+            "eta_id": 0,
+            "section": "Science",
+            "id": 100000006732746,
+            "asset_id": 100000006732746,
+            "nytdsection": "science",
+            "byline": "By RACHEL NUWER",
+            "type": "Article",
+            "title": "Cats Like People! (Some People, Anyway)",
+            "abstract": "Despite apparent aloofness, cats are social creatures capable of relationships with people, a new study suggests.",
+            "published_date": "2019-09-24",
+            "source": "The New York Times",
+            "updated": "2019-10-01 05:00:07",
+            "des_facet": [
+                "ANIMAL BEHAVIOR",
+                "CATS",
+                "FAMILIES AND FAMILY LIFE",
+                "LOVE (EMOTION)"
+            ],
+            "org_facet": [
+                "DOGS",
+                "ANXIETY AND STRESS",
+                "CURRENT BIOLOGY (JOURNAL)",
+                "OREGON STATE UNIVERSITY"
+            ],
+            "per_facet": "",
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Don&rsquo;t let their faces fool you. Some cats do seem very bonded to owners, as many cat lovers attest.",
+                    "copyright": "Thomas Peter/Reuters",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/10/01/science/00SCI-CATS1/00SCI-CATS1-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/10/01/science/00SCI-CATS1/00SCI-CATS1-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/10/01/science/00SCI-CATS1/00SCI-CATS1-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/664e9e01-e89e-5bdd-827e-91c56290f601"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/09/22/opinion/trump-ukraine-whistle-blower.html",
+            "adx_keywords": "Trump, Donald J;Presidential Election of 2020;United States Politics and Government;Ethics and Official Misconduct;Discrimination;Corruption (Institutional);Presidents and Presidency (US);United States International Relations;Rumors and Misinformation",
+            "subsection": "",
+            "email_count": 6,
+            "count_type": "EMAILED",
+            "column": null,
+            "eta_id": 0,
+            "section": "Opinion",
+            "id": 100000006728871,
+            "asset_id": 100000006728871,
+            "nytdsection": "opinion",
+            "byline": "By DAVID LEONHARDT",
+            "type": "Article",
+            "title": "Donald Trump vs. the United States of America",
+            "abstract": "Just the facts, in 40 sentences.",
+            "published_date": "2019-09-22",
+            "source": "The New York Times",
+            "updated": "2019-09-24 12:47:46",
+            "des_facet": [
+                "PRESIDENTIAL ELECTION OF 2020",
+                "DISCRIMINATION",
+                "CORRUPTION (INSTITUTIONAL)",
+                "PRESIDENTS AND PRESIDENCY (US)",
+                "UNITED STATES INTERNATIONAL RELATIONS",
+                "RUMORS AND MISINFORMATION"
+            ],
+            "org_facet": [
+                "UNITED STATES POLITICS AND GOVERNMENT",
+                "ETHICS AND OFFICIAL MISCONDUCT"
+            ],
+            "per_facet": [
+                "TRUMP, DONALD J"
+            ],
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Erin Schaff/The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/10/22/opinion/22leonardtSub/merlin_160248591_2883e31a-1b08-487c-9dac-88b37ec03f0c-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/10/22/opinion/22leonardtSub/merlin_160248591_2883e31a-1b08-487c-9dac-88b37ec03f0c-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/10/22/opinion/22leonardtSub/merlin_160248591_2883e31a-1b08-487c-9dac-88b37ec03f0c-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/063b92e7-3ddd-5fb6-a08e-e60891ec699c"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/10/04/opinion/sunday/trump-arkansas.html",
+            "adx_keywords": "Rural Areas;Local Government;Van Buren (Ark);Libraries and Librarians;Taxation;Polls and Public Opinion;Income Inequality;Trump, Donald J;United States Politics and Government",
+            "subsection": "sunday review",
+            "email_count": 7,
+            "count_type": "EMAILED",
+            "column": null,
+            "eta_id": 0,
+            "section": "Opinion",
+            "id": 100000006600134,
+            "asset_id": 100000006600134,
+            "nytdsection": "opinion",
+            "byline": "By MONICA POTTS",
+            "type": "Article",
+            "title": "In the Land of Self-Defeat",
+            "abstract": "What a fight over the local library in my hometown in rural Arkansas taught me about my neighbors’ go-it-alone mythology — and Donald Trump’s unbeatable appeal.",
+            "published_date": "2019-10-04",
+            "source": "The New York Times",
+            "updated": "2019-10-07 15:49:49",
+            "des_facet": [
+                "LOCAL GOVERNMENT",
+                "LIBRARIES AND LIBRARIANS",
+                "POLLS AND PUBLIC OPINION",
+                "INCOME INEQUALITY"
+            ],
+            "org_facet": [
+                "RURAL AREAS",
+                "TAXATION",
+                "UNITED STATES POLITICS AND GOVERNMENT"
+            ],
+            "per_facet": [
+                "TRUMP, DONALD J"
+            ],
+            "geo_facet": [
+                "VAN BUREN (ARK)"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A view of Van Buren County, Ark. Rural counties like Van Buren voted for Donald Trump in 2016 by big margins; Mr. Trump won 72 percent of the vote here.",
+                    "copyright": "Audra Melton for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/10/06/opinion/06Potts6/06Potts6-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/10/06/opinion/06Potts6/merlin_162052569_a998c29c-3b35-43b6-a748-09ef7c6d7555-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/10/06/opinion/06Potts6/merlin_162052569_a998c29c-3b35-43b6-a748-09ef7c6d7555-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/b69dea05-e978-5b96-806c-1ea51f9bce10"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/10/01/magazine/rachel-maddow-trump.html",
+            "adx_keywords": "Maddow, Rachel;MSNBC;Television;News and News Media;Liberalism (US Politics);Russian Interference in 2016 US Elections and Ties to Trump Associates;Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry;United States Politics and Government;Trump, Donald J",
+            "subsection": "",
+            "email_count": 8,
+            "count_type": "EMAILED",
+            "column": "Feature",
+            "eta_id": 0,
+            "section": "Magazine",
+            "id": 100000006741655,
+            "asset_id": 100000006741655,
+            "nytdsection": "magazine",
+            "byline": "By AMANDA HESS",
+            "type": "Article",
+            "title": "This Is the Moment Rachel Maddow Has Been Waiting For",
+            "abstract": "How the MSNBC host staked her show on Trump — and won the largest and most obsessive audience of her career.",
+            "published_date": "2019-10-01",
+            "source": "The New York Times",
+            "updated": "2019-10-06 15:47:37",
+            "des_facet": [
+                "NEWS AND NEWS MEDIA",
+                "RUSSIAN INTERFERENCE IN 2016 US ELECTIONS AND TIES TO TRUMP ASSOCIATES",
+                "TRUMP-UKRAINE WHISTLE-BLOWER COMPLAINT AND IMPEACHMENT INQUIRY",
+                "UNITED STATES POLITICS AND GOVERNMENT"
+            ],
+            "org_facet": [
+                "MSNBC",
+                "TELEVISION",
+                "LIBERALISM (US POLITICS)"
+            ],
+            "per_facet": [
+                "MADDOW, RACHEL",
+                "TRUMP, DONALD J"
+            ],
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Christopher Griffith for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/10/06/magazine/06-mag-maddow-cover/06-mag-maddow-cover-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/10/06/magazine/06-mag-maddow-cover/06-mag-maddow-cover-mediumThreeByTwo210-v2.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/10/06/magazine/06-mag-maddow-cover/06-mag-maddow-cover-mediumThreeByTwo440-v2.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/98409742-7b8e-5406-bdef-333feaf75846"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/09/21/us/lost-dog-montana-kalispell-spokane.html",
+            "adx_keywords": "Dogs;Kalispell (Mont);Montana",
+            "subsection": "",
+            "email_count": 9,
+            "count_type": "EMAILED",
+            "column": null,
+            "eta_id": 0,
+            "section": "U.S.",
+            "id": 100000006729477,
+            "asset_id": 100000006729477,
+            "nytdsection": "u.s.",
+            "byline": "By MIKE BAKER",
+            "type": "Article",
+            "title": "She Quit Her Job. He Got Night Goggles. They Searched 57 Days for Their Dog.",
+            "abstract": "A couple combed a rural Montana community for their Border collie, Katie.",
+            "published_date": "2019-09-21",
+            "source": "The New York Times",
+            "updated": "2019-09-22 16:02:39",
+            "des_facet": [
+                "DOGS"
+            ],
+            "org_facet": "",
+            "per_facet": "",
+            "geo_facet": [
+                "KALISPELL (MONT)",
+                "MONTANA"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Rajah Bose for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/21/us/politics/21lostdog-promo/21lostdog-promo-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/21/us/politics/21lostdog-promo/21lostdog-promo-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/21/us/politics/21lostdog-promo/21lostdog-promo-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/b06c76f4-4f49-5dd9-ae84-6576ce623e8a"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/09/19/science/bird-populations-america-canada.html",
+            "adx_keywords": "Birds;Endangered and Extinct Species;North America;Animal Migration;Conservation of Resources;Pesticides;Science (Journal);Rosenberg, Kenneth V;Audubon Society, National;American Bird Conservancy;Cornell University;Canada;United States;your-feed-science",
+            "subsection": "",
+            "email_count": 10,
+            "count_type": "EMAILED",
+            "column": "Matter",
+            "eta_id": 0,
+            "section": "Science",
+            "id": 100000006723061,
+            "asset_id": 100000006723061,
+            "nytdsection": "science",
+            "byline": "By CARL ZIMMER",
+            "type": "Article",
+            "title": "Birds Are Vanishing From North America",
+            "abstract": "The number of birds in the United States and Canada has declined by 3 billion, or 29 percent, over the past half-century, scientists find.",
+            "published_date": "2019-09-19",
+            "source": "The New York Times",
+            "updated": "2019-09-23 21:27:23",
+            "des_facet": [
+                "BIRDS",
+                "ENDANGERED AND EXTINCT SPECIES",
+                "ANIMAL MIGRATION",
+                "CONSERVATION OF RESOURCES",
+                "YOUR-FEED-SCIENCE"
+            ],
+            "org_facet": [
+                "PESTICIDES",
+                "SCIENCE (JOURNAL)",
+                "AUDUBON SOCIETY, NATIONAL",
+                "AMERICAN BIRD CONSERVANCY",
+                "CORNELL UNIVERSITY"
+            ],
+            "per_facet": [
+                "ROSENBERG, KENNETH V"
+            ],
+            "geo_facet": [
+                "NORTH AMERICA",
+                "CANADA",
+                "UNITED STATES"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A cactus wren.",
+                    "copyright": "Brian Sullivan, Macaulay Library at Cornell Lab of Ornithology",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/19/science/19SCI-MATTER-BIRDS4/19SCI-MATTER-BIRDS4-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/19/science/19SCI-MATTER-BIRDS4/19SCI-MATTER-BIRDS4-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/19/science/19SCI-MATTER-BIRDS4/19SCI-MATTER-BIRDS4-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/409f6bb1-5c88-5315-8610-95b1e2122de6"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/09/18/arts/design/hunters-point-community-library.html",
+            "adx_keywords": "Hunters Point Community Library (Queens, NY);Architecture;Libraries and Librarians;Hunters Point (Queens, NY);Building (Construction);Department of Design and Construction (NYC)",
+            "subsection": "art & design",
+            "email_count": 11,
+            "count_type": "EMAILED",
+            "column": "Critic’s Notebook",
+            "eta_id": 0,
+            "section": "Arts",
+            "id": 100000006654970,
+            "asset_id": 100000006654970,
+            "nytdsection": "arts",
+            "byline": "By MICHAEL KIMMELMAN",
+            "type": "Article",
+            "title": "Why Can’t New York City Build More Gems Like This Queens Library?",
+            "abstract": "The Hunters Point Community Library is one of the finest public buildings New York has produced this century. But it cost more than $40 million, took a decade and almost died.",
+            "published_date": "2019-09-18",
+            "source": "The New York Times",
+            "updated": "2019-09-19 13:36:03",
+            "des_facet": [
+                "LIBRARIES AND LIBRARIANS",
+                "BUILDING (CONSTRUCTION)"
+            ],
+            "org_facet": [
+                "HUNTERS POINT COMMUNITY LIBRARY (QUEENS, NY)",
+                "ARCHITECTURE",
+                "DEPARTMENT OF DESIGN AND CONSTRUCTION (NYC)"
+            ],
+            "per_facet": "",
+            "geo_facet": [
+                "HUNTERS POINT (QUEENS, NY)"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Winnie Au for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/19/arts/18queens-library1/18queens-library1-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/19/arts/18queens-library1/18queens-library1-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/19/arts/18queens-library1/18queens-library1-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/70e32110-ce32-5ffb-8123-83bf5df51c35"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/08/30/smarter-living/wirecutter/wide-awake-at-3-am-dont-just-look-at-your-phone.html",
+            "adx_keywords": "Sleep;Psychology and Psychologists;Beds and Bedding;Insomnia;your-feed-wirecutter",
+            "subsection": "wirecutter",
+            "email_count": 12,
+            "count_type": "EMAILED",
+            "column": "Wirecutter",
+            "eta_id": 0,
+            "section": "Smarter Living",
+            "id": 100000006675271,
+            "asset_id": 100000006675271,
+            "nytdsection": "smarter living",
+            "byline": "By JOANNE CHEN",
+            "type": "Article",
+            "title": "Wide-Awake at 3 A.M.? Don’t Just Look at Your Phone",
+            "abstract": "Try these six simple tactics to help you fall back to sleep and stay there.",
+            "published_date": "2019-08-30",
+            "source": "The New York Times",
+            "updated": "2019-09-14 17:28:54",
+            "des_facet": [
+                "SLEEP",
+                "PSYCHOLOGY AND PSYCHOLOGISTS",
+                "BEDS AND BEDDING",
+                "YOUR-FEED-WIRECUTTER"
+            ],
+            "org_facet": [
+                "INSOMNIA"
+            ],
+            "per_facet": "",
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Yann Bastard",
+                    "approved_for_syndication": 0,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/06/smarter-living/00wc-awake/00wc-awake-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/06/smarter-living/00wc-awake/00wc-awake-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/06/smarter-living/00wc-awake/00wc-awake-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/51adf7d6-8dab-5195-8457-2ff70825258e"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/09/20/travel/columbus-ohio-distilleries-whiskey.html",
+            "adx_keywords": "Alcoholic Beverages;Whiskey;Travel and Vacations;Columbus (Ohio);distilleries",
+            "subsection": "",
+            "email_count": 13,
+            "count_type": "EMAILED",
+            "column": "Heads Up",
+            "eta_id": 0,
+            "section": "Travel",
+            "id": 100000006706363,
+            "asset_id": 100000006706363,
+            "nytdsection": "travel",
+            "byline": "By NICHOLAS GILL",
+            "type": "Article",
+            "title": "The New Hangout in Columbus? Distilleries",
+            "abstract": "One of the country’s fastest-growing cities has seen a surge in homegrown distilleries that are drawing customers with tasting rooms, restaurants and bottle shops.",
+            "published_date": "2019-09-20",
+            "source": "The New York Times",
+            "updated": "2019-09-20 09:01:52",
+            "des_facet": [
+                "ALCOHOLIC BEVERAGES"
+            ],
+            "org_facet": [
+                "WHISKEY",
+                "TRAVEL AND VACATIONS"
+            ],
+            "per_facet": "",
+            "geo_facet": [
+                "COLUMBUS (OHIO)"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Service Bar is a restaurant and bottle shop attached to Middle West Spirits, a distillery in Columbus, Ohio. In recent years, local micro distilleries have elevated the city&rsquo;s drink scene.",
+                    "copyright": "Brian Kaiser for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/15/travel/15heads-columbus3/merlin_160138410_789785e9-acef-4d23-8f7c-d326c3545dd8-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/15/travel/15heads-columbus3/merlin_160138410_789785e9-acef-4d23-8f7c-d326c3545dd8-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/15/travel/15heads-columbus3/merlin_160138410_789785e9-acef-4d23-8f7c-d326c3545dd8-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/81a21f3c-b519-5aef-b616-afd37d52a7aa"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/10/01/travel/overseas-credit-card-fees.html",
+            "adx_keywords": "Credit Cards;Travel and Vacations;Prices (Fares, Fees and Rates);Personal Finances;Banking and Financial Institutions;American Express Company;Visa Inc;India",
+            "subsection": "",
+            "email_count": 14,
+            "count_type": "EMAILED",
+            "column": null,
+            "eta_id": 0,
+            "section": "Travel",
+            "id": 100000006731659,
+            "asset_id": 100000006731659,
+            "nytdsection": "travel",
+            "byline": "By VINDU GOEL",
+            "type": "Article",
+            "title": "How to Avoid Being Fleeced When Using a Credit Card Overseas",
+            "abstract": "Merchants frequently try to confuse and bulldoze foreign travelers into paying a stiff markup on credit card charges. But you can fight back.",
+            "published_date": "2019-10-01",
+            "source": "The New York Times",
+            "updated": "2019-10-03 19:31:02",
+            "des_facet": [
+                "CREDIT CARDS",
+                "TRAVEL AND VACATIONS",
+                "PRICES (FARES, FEES AND RATES)"
+            ],
+            "org_facet": [
+                "PERSONAL FINANCES",
+                "BANKING AND FINANCIAL INSTITUTIONS",
+                "AMERICAN EXPRESS COMPANY",
+                "VISA INC"
+            ],
+            "per_facet": "",
+            "geo_facet": [
+                "INDIA"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Lars Leetaru",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/10/06/travel/06TIPS-currency/06TIPS-currency-thumbStandard-v2.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/10/06/travel/06TIPS-currency/06TIPS-currency-mediumThreeByTwo210-v3.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/10/06/travel/06TIPS-currency/06TIPS-currency-mediumThreeByTwo440-v3.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/941edd8c-24f0-5914-b14e-8ebdd74926ae"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/09/25/travel/switzerland-alps-hiking-bisses.html",
+            "adx_keywords": "Hikes and Hiking;Travel and Vacations;Water;Irrigation;Switzerland;Alps Mountains",
+            "subsection": "",
+            "email_count": 15,
+            "count_type": "EMAILED",
+            "column": null,
+            "eta_id": 0,
+            "section": "Travel",
+            "id": 100000006568758,
+            "asset_id": 100000006568758,
+            "nytdsection": "travel",
+            "byline": "By ANDREW BRENNER",
+            "type": "Article",
+            "title": "In the Swiss Alps, Walking a Cliff’s Edge to History",
+            "abstract": "Hiking along bisses, ancient irrigation channels in the mountains above the Rhone River Valley, is a journey back in time.",
+            "published_date": "2019-09-25",
+            "source": "The New York Times",
+            "updated": "2019-09-30 04:22:44",
+            "des_facet": [
+                "HIKES AND HIKING",
+                "TRAVEL AND VACATIONS",
+                "WATER"
+            ],
+            "org_facet": [
+                "IRRIGATION"
+            ],
+            "per_facet": "",
+            "geo_facet": [
+                "SWITZERLAND",
+                "ALPS MOUNTAINS"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "In some low-hanging sections, hikers have to duck to avoid rock faces.",
+                    "copyright": "Lauryn Ishak for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/23/realestate/23bisses-switzerland-hiking4/23bisses-switzerland-hiking4-thumbStandard-v2.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/23/realestate/23bisses-switzerland-hiking4/23bisses-switzerland-hiking4-mediumThreeByTwo210-v2.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/23/realestate/23bisses-switzerland-hiking4/23bisses-switzerland-hiking4-mediumThreeByTwo440-v2.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/f4e037eb-7d61-5ddd-a87d-1961ea845359"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/09/24/us/college-admissions-case-sentencing.html",
+            "adx_keywords": "College Admissions Scandal (2019);Admissions Standards;Cheating;Colleges and Universities;Tests and Examinations;University of Southern California;Huffman, Felicity",
+            "subsection": "",
+            "email_count": 16,
+            "count_type": "EMAILED",
+            "column": null,
+            "eta_id": 0,
+            "section": "U.S.",
+            "id": 100000006729090,
+            "asset_id": 100000006729090,
+            "nytdsection": "u.s.",
+            "byline": "By KATE TAYLOR",
+            "type": "Article",
+            "title": "College Admissions Scandal: Parent Gets 4 Months in Brazen Scheme",
+            "abstract": "Devin Sloane, who is accused of paying $250,000 to get his son into college, was the second parent sentenced in the sweeping case, after the actress Felicity Huffman.",
+            "published_date": "2019-09-24",
+            "source": "The New York Times",
+            "updated": "2019-09-25 11:19:46",
+            "des_facet": [
+                "ADMISSIONS STANDARDS",
+                "CHEATING",
+                "COLLEGES AND UNIVERSITIES",
+                "TESTS AND EXAMINATIONS"
+            ],
+            "org_facet": [
+                "COLLEGE ADMISSIONS SCANDAL (2019)",
+                "UNIVERSITY OF SOUTHERN CALIFORNIA"
+            ],
+            "per_facet": [
+                "HUFFMAN, FELICITY"
+            ],
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A father was accused of illegitimately passing his son off as a water polo player to help him gain admission to the University of Southern California.",
+                    "copyright": "Jessica Sample for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/24/us/24ADMISSIONS-SENTENCING01/24ADMISSIONS-SENTENCING01-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/24/us/24ADMISSIONS-SENTENCING01/merlin_143014548_469ad800-b1bb-42fa-bd86-e98ba87052f3-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/24/us/24ADMISSIONS-SENTENCING01/merlin_143014548_469ad800-b1bb-42fa-bd86-e98ba87052f3-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/586f224f-9525-551e-8522-4f5672192de5"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/09/24/realestate/when-the-antiques-have-to-go.html",
+            "adx_keywords": "Real Estate and Housing (Residential);Interior Design and Furnishings;Chelsea (Manhattan, NY);Antiques;Furniture",
+            "subsection": "",
+            "email_count": 17,
+            "count_type": "EMAILED",
+            "column": null,
+            "eta_id": 0,
+            "section": "Real Estate",
+            "id": 100000006729128,
+            "asset_id": 100000006729128,
+            "nytdsection": "real estate",
+            "byline": "By SARA CLEMENCE",
+            "type": "Article",
+            "title": "When the Antiques Have to Go",
+            "abstract": "With spare interiors and light colors all the rage right now, selling a home filled with period pieces can be a challenge.",
+            "published_date": "2019-09-24",
+            "source": "The New York Times",
+            "updated": "2019-10-03 22:10:05",
+            "des_facet": [
+                "REAL ESTATE AND HOUSING (RESIDENTIAL)",
+                "INTERIOR DESIGN AND FURNISHINGS"
+            ],
+            "org_facet": [
+                "ANTIQUES",
+                "FURNITURE"
+            ],
+            "per_facet": "",
+            "geo_facet": [
+                "CHELSEA (MANHATTAN, NY)"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Antiques ready to go to auction at the Showplace Antique + Design Center in Chelsea.",
+                    "copyright": "Stefano Ukmar for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/24/realestate/24antiques4/merlin_161159835_dc75c2a1-7290-4ee0-9aee-86fba5951240-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/24/realestate/24antiques4/merlin_161159835_dc75c2a1-7290-4ee0-9aee-86fba5951240-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/24/realestate/24antiques4/merlin_161159835_dc75c2a1-7290-4ee0-9aee-86fba5951240-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/bda55876-2b83-57ec-8114-86b151fcb3ec"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/09/20/opinion/republicans-democracy-play-dirty.html",
+            "adx_keywords": "Conservatism (US Politics);Elections;United States Politics and Government;Constitution (US);Republican Party",
+            "subsection": "",
+            "email_count": 18,
+            "count_type": "EMAILED",
+            "column": null,
+            "eta_id": 0,
+            "section": "Opinion",
+            "id": 100000006726957,
+            "asset_id": 100000006726957,
+            "nytdsection": "opinion",
+            "byline": "By STEVEN LEVITSKY and DANIEL ZIBLATT",
+            "type": "Article",
+            "title": "Why Republicans Play Dirty",
+            "abstract": "They fear that if they stick to the rules, they will lose everything. Their behavior is a threat to democratic stability.",
+            "published_date": "2019-09-20",
+            "source": "The New York Times",
+            "updated": "2019-09-27 13:47:58",
+            "des_facet": [
+                "CONSERVATISM (US POLITICS)",
+                "ELECTIONS"
+            ],
+            "org_facet": [
+                "UNITED STATES POLITICS AND GOVERNMENT",
+                "CONSTITUTION (US)",
+                "REPUBLICAN PARTY"
+            ],
+            "per_facet": "",
+            "geo_facet": "",
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Chris Gash",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/20/opinion/20levitsky-ziblatt-illo/20levitsky-ziblatt-illo-thumbStandard-v2.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/20/opinion/20levitsky-ziblatt-illo/20levitsky-ziblatt-illo-mediumThreeByTwo210-v2.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/20/opinion/20levitsky-ziblatt-illo/20levitsky-ziblatt-illo-mediumThreeByTwo440-v2.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/4e58c4c9-b8d6-54ad-890d-56c8ab547a0c"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/09/19/us/politics/anti-israel-bias-higher-education.html",
+            "adx_keywords": "Colleges and Universities;Duke University;University of North Carolina;Academic Freedom;Education Department (US);DeVos, Elizabeth (1958- );Israel;Middle East;Jews and Judaism;Christians and Christianity;Palestinians;Civil Rights and Liberties;Trump, Donald J;United States Politics and Government",
+            "subsection": "politics",
+            "email_count": 19,
+            "count_type": "EMAILED",
+            "column": "",
+            "eta_id": 0,
+            "section": "U.S.",
+            "id": 100000006724704,
+            "asset_id": 100000006724704,
+            "nytdsection": "u.s.",
+            "byline": "By ERICA L. GREEN",
+            "type": "Article",
+            "title": "U.S. Orders Duke and U.N.C. to Recast Tone in Mideast Studies",
+            "abstract": "The Education Department is investigating a Middle East studies program run by Duke and the University of North Carolina, citing, among other issues, how Judaism is discussed.",
+            "published_date": "2019-09-19",
+            "source": "The New York Times",
+            "updated": "2019-09-20 15:04:38",
+            "des_facet": [
+                "COLLEGES AND UNIVERSITIES",
+                "JEWS AND JUDAISM"
+            ],
+            "org_facet": [
+                "DUKE UNIVERSITY",
+                "UNIVERSITY OF NORTH CAROLINA",
+                "ACADEMIC FREEDOM",
+                "EDUCATION DEPARTMENT (US)",
+                "CHRISTIANS AND CHRISTIANITY",
+                "PALESTINIANS",
+                "CIVIL RIGHTS AND LIBERTIES",
+                "UNITED STATES POLITICS AND GOVERNMENT"
+            ],
+            "per_facet": [
+                "DEVOS, ELIZABETH (1958- )",
+                "TRUMP, DONALD J"
+            ],
+            "geo_facet": [
+                "ISRAEL",
+                "MIDDLE EAST"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The chapel at Duke University. The Education Department is investigating a Middle East studies program that the university runs jointly with the University of North Carolina at Chapel Hill.",
+                    "copyright": "Lance King/Getty Images",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/19/us/politics/19dc-higher/19dc-higher-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/19/us/politics/19dc-higher/19dc-higher-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/19/us/politics/19dc-higher/19dc-higher-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/b542b155-48bd-5bbd-85c8-ec634b5acbb5"
+        },
+        {
+            "url": "https://www.nytimes.com/2019/09/11/us/california-church-homeless-panhandling.html",
+            "adx_keywords": "Homeless Persons;Forced Labor;Federal Bureau of Investigation;El Centro (Calif);Brownsville (Tex);San Diego (Calif)",
+            "subsection": "",
+            "email_count": 20,
+            "count_type": "EMAILED",
+            "column": null,
+            "eta_id": 0,
+            "section": "U.S.",
+            "id": 100000006711490,
+            "asset_id": 100000006711490,
+            "nytdsection": "u.s.",
+            "byline": "By EMILY S. RUEB",
+            "type": "Article",
+            "title": "California Church Leaders Lured Homeless Into Forced Labor, U.S. Says",
+            "abstract": "A dozen leaders of a California-based ministry have been accused of forcing vulnerable people to panhandle “for the financial benefit of the church leaders,” federal prosecutors said.",
+            "published_date": "2019-09-11",
+            "source": "The New York Times",
+            "updated": "2019-09-13 04:54:41",
+            "des_facet": [
+                "HOMELESS PERSONS"
+            ],
+            "org_facet": [
+                "FORCED LABOR",
+                "FEDERAL BUREAU OF INVESTIGATION"
+            ],
+            "per_facet": "",
+            "geo_facet": [
+                "EL CENTRO (CALIF)",
+                "BROWNSVILLE (TEX)",
+                "SAN DIEGO (CALIF)"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The F.B.I. searching the offices of Imperial Valley Ministries properties in 2018. A dozen leaders face conspiracy charges.",
+                    "copyright": "Julio Morales/Imperial Valley Press",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/11/multimedia/11xp-homeless2/11xp-homeless2-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/11/multimedia/11xp-homeless2/11xp-homeless2-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2019/09/11/multimedia/11xp-homeless2/11xp-homeless2-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "uri": "nyt://article/079784ec-1ec3-5654-a657-13453db4a8c7"
+        }
+    ]
+}

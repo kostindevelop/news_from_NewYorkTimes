@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+class Networker {
+    private let key = "UckfmA71O5KBlz2RxnBlW2WwUcO5LLGG"
+}
