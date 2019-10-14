@@ -13,23 +13,51 @@ private let newsCellIdentifire = "NewsCell"
 
 class FavoritesController: UIViewController {
     
-    
-    @IBOutlet weak var collectionView: UICollectionView!
+    private var collectionView: UICollectionView?
+    private var labelNoFavorites = UILabel()
     
     private var favoritesNews: [News] = [] {
         didSet {
-            collectionView.reloadData()
+            collectionView?.reloadData()
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        collectionView.register(UINib(nibName: newsCellIdentifire, bundle: nil), forCellWithReuseIdentifier: newsCellIdentifire)
+        configuredUI()
+        registeredCollectionCell()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.favoritesNews = StorageService.shared.getAllFavoritesNews()
+        reloadData()
+    }
+    
+    private func configuredUI() {
+        labelNoFavorites.frame = view.frame
+        labelNoFavorites.textAlignment = .center
+        labelNoFavorites.text = "No Featured News"
+        labelNoFavorites.backgroundColor = .white
+        labelNoFavorites.textColor = .black
+        labelNoFavorites.font = UIFont.boldSystemFont(ofSize: 22)
+        view.addSubview(labelNoFavorites)
+        
+        let flowLayout = UICollectionViewFlowLayout()
+        self.collectionView = UICollectionView(frame: self.view.bounds, collectionViewLayout: flowLayout)
+        collectionView?.backgroundColor = .white
+        collectionView?.delegate = self
+        collectionView?.dataSource = self
+        view.addSubview(collectionView!)
+    }
+    
+    private func registeredCollectionCell() {
+        collectionView?.register(UINib(nibName: newsCellIdentifire, bundle: nil), forCellWithReuseIdentifier: newsCellIdentifire)
+    }
+    
+    private func reloadData() {
+        favoritesNews = StorageService.shared.getAllFavoritesNews()
+        labelNoFavorites.isHidden = !favoritesNews.isEmpty
+        collectionView?.isHidden = favoritesNews.isEmpty
     }
 }
 
@@ -45,6 +73,11 @@ extension FavoritesController: UICollectionViewDataSource {
         let newsCell = collectionView.dequeueReusableCell(withReuseIdentifier: newsCellIdentifire, for: indexPath) as? NewsCell
         let favoritNews = favoritesNews[indexPath.row]
         newsCell?.configuredCellWith(favoritesNews: favoritNews)
+        newsCell?.buttonAction = { sender in
+            StorageService.shared.delete(object: favoritNews)
+            self.reloadData()
+            self.showAlert(title: "Ok!", message: "News removed from favorites", buttonTitle: "ОК")
+        }
         return newsCell!
     }
     
