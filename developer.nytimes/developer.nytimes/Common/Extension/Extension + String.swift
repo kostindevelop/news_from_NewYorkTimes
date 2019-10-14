@@ -16,7 +16,7 @@ extension String {
     func convertToDateString(with formatType: DateType) -> String {
         let dateFormatterGet = DateFormatter()
         dateFormatterGet.dateFormat = "yyyy-MM-dd"
-            
+        
         dateFormatterGet.locale = NSLocale.current
         let dateFormatterPrint = DateFormatter()
         
@@ -27,9 +27,7 @@ extension String {
             dateFormatterPrint.dateFormat = "dd"
         }
         if let date = dateFormatterGet.date(from: self) {
-            print(self)
             let convertedString = dateFormatterPrint.string(from: date)
-            print(convertedString)
             return convertedString
         } else {
             print("error")
