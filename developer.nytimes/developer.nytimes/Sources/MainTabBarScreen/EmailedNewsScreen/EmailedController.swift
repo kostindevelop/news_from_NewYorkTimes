@@ -41,10 +41,19 @@ extension EmailedController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let newsCell = collectionView.dequeueReusableCell(withReuseIdentifier: newsCellIdentifire, for: indexPath) as? NewsCell
-        let news = (newsModel?.results?[indexPath.item])!
-        newsCell?.configuredCellWith(news: news)
-        return newsCell!
+        if newsModel == nil {
+            let cell
+        } else {
+            let newsCell = collectionView.dequeueReusableCell(withReuseIdentifier: newsCellIdentifire, for: indexPath) as? NewsCell
+            let news = (newsModel?.results?[indexPath.item])!
+            newsCell?.delegate = self
+            newsCell?.configuredCellWith(news: news)
+            newsCell?.buttonAction = { sender in
+                StorageService.shared.addNewsToFavourites(with: news)
+                self.showAlert(title: "Ok!", message: "News added to favorites", buttonTitle: "ОК")
+            }
+            return newsCell!
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -80,4 +89,14 @@ extension EmailedController: UICollectionViewDelegateFlowLayout {
 extension EmailedController: UICollectionViewDelegate {}
 
 
+// MARK: - SelectedAddNewsToFavoritesProtocol
+
+extension EmailedController: SelectedAddNewsToFavoritesProtocol {
+    func didTabAddNewsToFavoritesButton() {
+        
+    }
+    
+
+    
+}
 

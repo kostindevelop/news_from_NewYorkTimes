@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol SelectedAddNewsToFavoritesProtocol {
+    func didTabAddNewsToFavoritesButton()
+}
+
 class NewsCell: UICollectionViewCell {
     
     @IBOutlet weak private var imgNews: CacheImageView!
@@ -18,6 +22,10 @@ class NewsCell: UICollectionViewCell {
     @IBOutlet weak private var btFavourites: UIButton!
 
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    
+    var delegate: SelectedAddNewsToFavoritesProtocol?
+    
+    var buttonAction: ((Any) -> Void)?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -45,12 +53,21 @@ class NewsCell: UICollectionViewCell {
         if let imageStrin = news.media?.first?.mediaMetadata?.first?.url {
             imgNews.downloadImage(from: imageStrin, activity: activityIndicator)
         }
-        
+    }
+    
+    func configuredCellWith(favoritesNews: News) {
+        let dateString = favoritesNews.dataCreate
+        lbNewsDay.text = dateString?.convertToDateString(with: .Day)
+        lbNewsMonth.text = dateString?.convertToDateString(with: .Month)
+        lbNewsTitle.text = favoritesNews.title
+        lbNewsDescription.text = favoritesNews.subTitle
+        if let imageStrin = favoritesNews.imageUrl {
+            imgNews.downloadImage(from: imageStrin, activity: activityIndicator)
+        }
     }
     
     @IBAction func didTabAddNewsToFavouritesButton(_ sender: UIButton) {
-        // TODO - Add news to favourites
-        print("didTabAddNewsToFavouritesButton")
+        buttonAction?(sender)
+//        delegate?.didTabAddNewsToFavoritesButton()
     }
-
 }

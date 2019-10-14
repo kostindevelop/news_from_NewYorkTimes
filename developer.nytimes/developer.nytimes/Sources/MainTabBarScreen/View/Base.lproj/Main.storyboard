@@ -159,7 +159,7 @@
         <!--Favourites-->
         <scene sceneID="M3Z-nx-ruz">
             <objects>
-                <viewController id="0dO-pt-7Rd" sceneMemberID="viewController">
+                <viewController id="0dO-pt-7Rd" customClass="FavoritesController" customModule="developer_nytimes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IQh-6B-IDG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -174,6 +174,10 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="0dO-pt-7Rd" id="bhn-bm-jpS"/>
+                                    <outlet property="delegate" destination="0dO-pt-7Rd" id="jX3-iO-KM0"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -186,6 +190,9 @@
                         <viewLayoutGuide key="safeArea" id="YuS-bo-CRD"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Favourites" image="iconFavourites" id="Nm4-xc-Aub"/>
+                    <connections>
+                        <outlet property="collectionView" destination="sa4-DJ-FKH" id="9i7-qO-Qct"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EAt-Ob-pFX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
