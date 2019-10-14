@@ -19,6 +19,8 @@ class NewsCell: UICollectionViewCell {
 
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
+    var buttonAction: ((Any) -> Void)?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -45,12 +47,24 @@ class NewsCell: UICollectionViewCell {
         if let imageStrin = news.media?.first?.mediaMetadata?.first?.url {
             imgNews.downloadImage(from: imageStrin, activity: activityIndicator)
         }
-        
+    }
+    
+    func configuredCellWith(favoritesNews: News) {
+        let dateString = favoritesNews.dataCreate
+        lbNewsDay.text = dateString?.convertToDateString(with: .Day)
+        lbNewsMonth.text = dateString?.convertToDateString(with: .Month)
+        lbNewsTitle.text = favoritesNews.title
+        lbNewsDescription.text = favoritesNews.subTitle
+        if let imageStrin = favoritesNews.imageUrl {
+            imgNews.downloadImage(from: imageStrin, activity: activityIndicator)
+        }
     }
     
     @IBAction func didTabAddNewsToFavouritesButton(_ sender: UIButton) {
-        // TODO - Add news to favourites
-        print("didTabAddNewsToFavouritesButton")
+        btFavourites.setImage(UIImage(named: "favorite-news"), for: .normal)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            self.btFavourites.setImage(UIImage(named: "unfavorite-news"), for: .normal)
+        }
+        buttonAction?(sender)
     }
-
 }

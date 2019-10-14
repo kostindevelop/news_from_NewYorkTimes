@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="EmptyCell" id="gTV-IL-0wX" customClass="EmptyCellCollectionViewCell" customModule="developer_nytimes" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="363" height="87"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="363" height="87"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PLc-ka-RKj">
+                        <rect key="frame" x="0.0" y="0.0" width="363" height="87"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconRefresh" translatesAutoresizingMaskIntoConstraints="NO" id="yaV-XQ-oPl">
+                                <rect key="frame" x="156" y="10" width="51" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yaV-XQ-oPl" secondAttribute="height" multiplier="7:6" id="EZH-uK-gwN"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="swipe down to refresh news" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yf5-Jm-8Bj">
+                                <rect key="frame" x="24" y="59" width="315" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="yaV-XQ-oPl" firstAttribute="centerX" secondItem="PLc-ka-RKj" secondAttribute="centerX" id="ONz-vH-nIh"/>
+                            <constraint firstAttribute="trailing" secondItem="Yf5-Jm-8Bj" secondAttribute="trailing" constant="24" id="R7G-08-8mT"/>
+                            <constraint firstItem="yaV-XQ-oPl" firstAttribute="top" secondItem="PLc-ka-RKj" secondAttribute="top" constant="10" id="rr2-UI-MHj"/>
+                            <constraint firstAttribute="bottom" secondItem="yaV-XQ-oPl" secondAttribute="bottom" constant="33" id="sGs-qp-QH2"/>
+                            <constraint firstItem="Yf5-Jm-8Bj" firstAttribute="top" secondItem="yaV-XQ-oPl" secondAttribute="bottom" constant="5" id="ubx-ER-8Yl"/>
+                            <constraint firstItem="Yf5-Jm-8Bj" firstAttribute="leading" secondItem="PLc-ka-RKj" secondAttribute="leading" constant="24" id="wV0-I8-agE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="PLc-ka-RKj" secondAttribute="bottom" id="14Z-iV-T9t"/>
+                <constraint firstItem="PLc-ka-RKj" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="7Dw-gz-kg6"/>
+                <constraint firstItem="PLc-ka-RKj" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Rgp-eP-xtF"/>
+                <constraint firstAttribute="trailing" secondItem="PLc-ka-RKj" secondAttribute="trailing" id="pca-xA-ELA"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="363" height="87"/>
+            <point key="canvasLocation" x="76.08695652173914" y="118.86160714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="iconRefresh" width="256" height="256"/>
+    </resources>
+</document>

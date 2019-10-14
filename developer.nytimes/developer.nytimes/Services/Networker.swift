@@ -31,6 +31,7 @@ class Networker {
         let urlString = General.baseURL + key.path + "?api-key=\(self.key)"
         Alamofire.request(urlString, method: .get)
             .validate()
+            
             .responseData { response in
                 guard response.result.isSuccess else {
                     completion(nil)
