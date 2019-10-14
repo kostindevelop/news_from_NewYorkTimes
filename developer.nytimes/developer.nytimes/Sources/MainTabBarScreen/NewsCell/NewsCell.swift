@@ -37,6 +37,9 @@ class NewsCell: UICollectionViewCell {
     }
     
     func configuredCellWith(news: Result) {
+        let dateString = news.publishedDate
+        lbNewsDay.text = dateString?.convertToDateString(with: .Day)
+        lbNewsMonth.text = dateString?.convertToDateString(with: .Month)
         lbNewsTitle.text = news.title
         lbNewsDescription.text = news.abstract
         if let imageStrin = news.media?.first?.mediaMetadata?.first?.url {

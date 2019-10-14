@@ -57,22 +57,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7cn-NZ-RWK">
-                                <rect key="frame" x="273" y="51.5" width="40" height="32"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7cn-NZ-RWK">
+                                <rect key="frame" x="273" y="46.5" width="40" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="B3l-X8-Z7h"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oct." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ytt-wl-Suz">
-                                <rect key="frame" x="273" y="83.5" width="40" height="32"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oct." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ytt-wl-Suz">
+                                <rect key="frame" x="273" y="79" width="40" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="10" id="Ip7-Og-hXZ"/>
-                                    <constraint firstAttribute="height" constant="32" id="TYs-2h-GJX"/>
+                                    <constraint firstAttribute="height" constant="21" id="TYs-2h-GJX"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -91,7 +90,7 @@
                             <constraint firstAttribute="trailing" secondItem="lks-T1-81Y" secondAttribute="trailing" constant="24" id="UA2-YQ-6a6"/>
                             <constraint firstItem="oM8-3a-VvN" firstAttribute="leading" secondItem="HCN-yB-EFA" secondAttribute="trailing" constant="10" id="ZLj-Bi-3rP"/>
                             <constraint firstItem="Ytt-wl-Suz" firstAttribute="top" secondItem="7cn-NZ-RWK" secondAttribute="bottom" id="Zni-cq-sLu"/>
-                            <constraint firstItem="7cn-NZ-RWK" firstAttribute="top" secondItem="lks-T1-81Y" secondAttribute="bottom" constant="5" id="f7C-af-o1F"/>
+                            <constraint firstItem="7cn-NZ-RWK" firstAttribute="top" secondItem="lks-T1-81Y" secondAttribute="bottom" id="f7C-af-o1F"/>
                             <constraint firstItem="aBA-JT-yKk" firstAttribute="leading" secondItem="HCN-yB-EFA" secondAttribute="trailing" constant="10" id="fqX-MI-Dc6"/>
                             <constraint firstItem="lks-T1-81Y" firstAttribute="leading" secondItem="aBA-JT-yKk" secondAttribute="trailing" constant="10" id="hAL-Rc-VBl"/>
                             <constraint firstItem="aBA-JT-yKk" firstAttribute="top" secondItem="HCN-yB-EFA" secondAttribute="top" id="rex-RW-9fI"/>
