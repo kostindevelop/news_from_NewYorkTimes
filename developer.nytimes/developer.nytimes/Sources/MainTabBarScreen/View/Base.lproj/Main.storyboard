@@ -11,21 +11,25 @@
         <!--Shared-->
         <scene sceneID="TS7-Oj-fsr">
             <objects>
-                <viewController id="Dxn-mG-TBK" sceneMemberID="viewController">
+                <viewController id="Dxn-mG-TBK" customClass="SharedController" customModule="developer_nytimes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4v3-bL-cPb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="tlH-X4-3Sw">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="U2C-LD-R7C">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="U2C-LD-R7C">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Dxn-mG-TBK" id="9ch-aU-stT"/>
+                                    <outlet property="delegate" destination="Dxn-mG-TBK" id="brE-bg-KCN"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -37,7 +41,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Tss-jL-HVZ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Shared" id="rh2-gp-zkk"/>
+                    <tabBarItem key="tabBarItem" title="Shared" image="iconShared" id="rh2-gp-zkk"/>
+                    <connections>
+                        <outlet property="collectionView" destination="tlH-X4-3Sw" id="ABU-lO-TRk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bzf-Iy-vy6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -46,33 +53,42 @@
         <!--Viewed-->
         <scene sceneID="NZG-Ix-wht">
             <objects>
-                <viewController id="cB1-Bz-Ko4" sceneMemberID="viewController">
+                <viewController id="cB1-Bz-Ko4" customClass="ViewedController" customModule="developer_nytimes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t8V-Lu-UNN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="8GL-RD-IBI">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="pYK-4k-7j8">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="eIX-9A-cRr">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="KqC-Sa-w4H">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="cB1-Bz-Ko4" id="V6X-at-SgG"/>
+                                    <outlet property="delegate" destination="cB1-Bz-Ko4" id="lBm-yY-rxI"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="8GL-RD-IBI" firstAttribute="top" secondItem="ymR-NL-Aoq" secondAttribute="top" id="Rrg-Of-fu5"/>
-                            <constraint firstItem="ymR-NL-Aoq" firstAttribute="bottom" secondItem="8GL-RD-IBI" secondAttribute="bottom" id="Tj7-At-POL"/>
-                            <constraint firstItem="ymR-NL-Aoq" firstAttribute="trailing" secondItem="8GL-RD-IBI" secondAttribute="trailing" id="dwv-hK-aGc"/>
-                            <constraint firstItem="8GL-RD-IBI" firstAttribute="leading" secondItem="ymR-NL-Aoq" secondAttribute="leading" id="gsm-mO-aOy"/>
+                            <constraint firstItem="ymR-NL-Aoq" firstAttribute="bottom" secondItem="pYK-4k-7j8" secondAttribute="bottom" id="51f-p3-kWV"/>
+                            <constraint firstItem="ymR-NL-Aoq" firstAttribute="trailing" secondItem="pYK-4k-7j8" secondAttribute="trailing" id="duY-ND-DKm"/>
+                            <constraint firstItem="pYK-4k-7j8" firstAttribute="top" secondItem="ymR-NL-Aoq" secondAttribute="top" id="tKk-id-0f8"/>
+                            <constraint firstItem="pYK-4k-7j8" firstAttribute="leading" secondItem="ymR-NL-Aoq" secondAttribute="leading" id="yiu-BN-CCX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ymR-NL-Aoq"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Viewed" id="8sx-Fd-iBt"/>
+                    <tabBarItem key="tabBarItem" title="Viewed" image="iconViewed" id="8sx-Fd-iBt">
+                        <color key="badgeColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="collectionView" destination="pYK-4k-7j8" id="RV9-DK-twC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mrl-tA-Pqi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -81,21 +97,25 @@
         <!--Emailed-->
         <scene sceneID="QGy-mr-Egj">
             <objects>
-                <viewController id="ECm-SU-udA" sceneMemberID="viewController">
+                <viewController id="ECm-SU-udA" customClass="EmailedController" customModule="developer_nytimes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Z4V-fq-8UG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="eu7-zA-afl">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="nHN-9D-APA">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Ozs-Bv-DDy">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="ECm-SU-udA" id="5dA-ns-7rP"/>
+                                    <outlet property="delegate" destination="ECm-SU-udA" id="JBm-i0-yyU"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -107,27 +127,24 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Rtg-hr-sj0"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Emailed" id="VlI-h1-eIP"/>
+                    <tabBarItem key="tabBarItem" title="Emailed" image="iconEmailed" id="VlI-h1-eIP"/>
+                    <connections>
+                        <outlet property="collectionView" destination="eu7-zA-afl" id="2JL-jx-N1W"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LOT-eS-h5J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2480" y="92"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar Controller-->
         <scene sceneID="mAJ-ip-XtX">
             <objects>
-                <tabBarController id="ls8-T4-uGc" sceneMemberID="viewController">
+                <tabBarController id="ls8-T4-uGc" customClass="MainTabBarController" customModule="developer_nytimes" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ybh-hE-2c9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
-                    <connections>
-                        <segue destination="ECm-SU-udA" kind="relationship" relationship="viewControllers" id="qwm-P8-X5v"/>
-                        <segue destination="cB1-Bz-Ko4" kind="relationship" relationship="viewControllers" id="SUU-zD-TMp"/>
-                        <segue destination="Dxn-mG-TBK" kind="relationship" relationship="viewControllers" id="aY2-PV-a50"/>
-                        <segue destination="0dO-pt-7Rd" kind="relationship" relationship="viewControllers" id="X3S-pb-EwV"/>
-                    </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UPB-2O-ZMh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -136,13 +153,13 @@
         <!--Favourites-->
         <scene sceneID="M3Z-nx-ruz">
             <objects>
-                <viewController id="0dO-pt-7Rd" sceneMemberID="viewController">
+                <viewController id="0dO-pt-7Rd" customClass="FavoritesController" customModule="developer_nytimes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IQh-6B-IDG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="sa4-DJ-FKH">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="XHo-pS-Erq">
                                     <size key="itemSize" width="50" height="50"/>
@@ -151,6 +168,10 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="0dO-pt-7Rd" id="bhn-bm-jpS"/>
+                                    <outlet property="delegate" destination="0dO-pt-7Rd" id="jX3-iO-KM0"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -162,11 +183,20 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YuS-bo-CRD"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Favourites" id="Nm4-xc-Aub"/>
+                    <tabBarItem key="tabBarItem" title="Favourites" image="iconFavorites" id="Nm4-xc-Aub"/>
+                    <connections>
+                        <outlet property="collectionView" destination="sa4-DJ-FKH" id="9i7-qO-Qct"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EAt-Ob-pFX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-942" y="-725"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="iconEmailed" width="16" height="16"/>
+        <image name="iconFavorites" width="16" height="16"/>
+        <image name="iconShared" width="16" height="16"/>
+        <image name="iconViewed" width="16" height="16"/>
+    </resources>
 </document>

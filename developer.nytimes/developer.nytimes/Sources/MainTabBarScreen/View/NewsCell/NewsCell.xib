@@ -11,17 +11,17 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="NewsCell" id="gTV-IL-0wX" customClass="NewsCell" customModule="developer_nytimes" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="420" height="127"/>
+            <rect key="frame" x="0.0" y="0.0" width="337" height="113"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="420" height="127"/>
+                <rect key="frame" x="0.0" y="0.0" width="337" height="113"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Wa-rt-aoI">
-                        <rect key="frame" x="0.0" y="0.0" width="420" height="127"/>
+                        <rect key="frame" x="0.0" y="0.0" width="337" height="113"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HCN-yB-EFA">
-                                <rect key="frame" x="24" y="13.5" width="100" height="100"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HCN-yB-EFA" customClass="CacheImageView" customModule="developer_nytimes" customModuleProvider="target">
+                                <rect key="frame" x="10" y="6.5" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="sz7-Ji-hCJ"/>
                                     <constraint firstAttribute="width" constant="100" id="w09-rS-9RT"/>
@@ -32,14 +32,13 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lks-T1-81Y">
-                                <rect key="frame" x="356" y="13.5" width="40" height="40"/>
-                                <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lks-T1-81Y">
+                                <rect key="frame" x="273" y="6.5" width="40" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="DFZ-d0-X1Y"/>
                                     <constraint firstAttribute="height" constant="40" id="uIS-RM-191"/>
                                 </constraints>
-                                <state key="normal">
+                                <state key="normal" image="unfavorite-news">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -47,54 +46,58 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What Really Brought Down the Boeing 737 Max?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBA-JT-yKk">
-                                <rect key="frame" x="134" y="13.5" width="212" height="36"/>
+                                <rect key="frame" x="120" y="6.5" width="143" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Malfunctions caused two deadly crashes. But an industry that puts unprepared pilots in the cockpit is just as guilty." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oM8-3a-VvN">
-                                <rect key="frame" x="134" y="59.5" width="212" height="53"/>
+                                <rect key="frame" x="120" y="52.5" width="143" height="53"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7cn-NZ-RWK">
-                                <rect key="frame" x="356" y="58.5" width="40" height="32"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7cn-NZ-RWK">
+                                <rect key="frame" x="273" y="46.5" width="40" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="B3l-X8-Z7h"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oct." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ytt-wl-Suz">
-                                <rect key="frame" x="356" y="90.5" width="40" height="32"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oct." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ytt-wl-Suz">
+                                <rect key="frame" x="273" y="78.5" width="40" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="10" id="Ip7-Og-hXZ"/>
-                                    <constraint firstAttribute="height" constant="32" id="TYs-2h-GJX"/>
+                                    <constraint firstAttribute="height" constant="21" id="TYs-2h-GJX"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="7o6-gI-7PL">
+                                <rect key="frame" x="50" y="46.5" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="7o6-gI-7PL" firstAttribute="centerX" secondItem="HCN-yB-EFA" secondAttribute="centerX" id="1pZ-rk-09Y"/>
                             <constraint firstItem="HCN-yB-EFA" firstAttribute="centerY" secondItem="4Wa-rt-aoI" secondAttribute="centerY" id="211-89-HOe"/>
                             <constraint firstItem="7cn-NZ-RWK" firstAttribute="width" secondItem="lks-T1-81Y" secondAttribute="width" id="8Zg-o3-SMe"/>
                             <constraint firstItem="lks-T1-81Y" firstAttribute="top" secondItem="HCN-yB-EFA" secondAttribute="top" id="IVF-ye-SeD"/>
                             <constraint firstItem="Ytt-wl-Suz" firstAttribute="width" secondItem="7cn-NZ-RWK" secondAttribute="width" id="LPV-VQ-WyF"/>
+                            <constraint firstItem="7o6-gI-7PL" firstAttribute="centerY" secondItem="HCN-yB-EFA" secondAttribute="centerY" id="TPJ-4u-Shf"/>
                             <constraint firstAttribute="trailing" secondItem="lks-T1-81Y" secondAttribute="trailing" constant="24" id="UA2-YQ-6a6"/>
                             <constraint firstItem="oM8-3a-VvN" firstAttribute="leading" secondItem="HCN-yB-EFA" secondAttribute="trailing" constant="10" id="ZLj-Bi-3rP"/>
                             <constraint firstItem="Ytt-wl-Suz" firstAttribute="top" secondItem="7cn-NZ-RWK" secondAttribute="bottom" id="Zni-cq-sLu"/>
-                            <constraint firstItem="7cn-NZ-RWK" firstAttribute="centerX" secondItem="lks-T1-81Y" secondAttribute="centerX" id="b3n-hG-Sg6"/>
-                            <constraint firstItem="7cn-NZ-RWK" firstAttribute="top" secondItem="lks-T1-81Y" secondAttribute="bottom" constant="5" id="f7C-af-o1F"/>
+                            <constraint firstItem="7cn-NZ-RWK" firstAttribute="top" secondItem="lks-T1-81Y" secondAttribute="bottom" id="f7C-af-o1F"/>
                             <constraint firstItem="aBA-JT-yKk" firstAttribute="leading" secondItem="HCN-yB-EFA" secondAttribute="trailing" constant="10" id="fqX-MI-Dc6"/>
                             <constraint firstItem="lks-T1-81Y" firstAttribute="leading" secondItem="aBA-JT-yKk" secondAttribute="trailing" constant="10" id="hAL-Rc-VBl"/>
                             <constraint firstItem="aBA-JT-yKk" firstAttribute="top" secondItem="HCN-yB-EFA" secondAttribute="top" id="rex-RW-9fI"/>
                             <constraint firstItem="Ytt-wl-Suz" firstAttribute="centerX" secondItem="7cn-NZ-RWK" secondAttribute="centerX" id="tqs-1l-dyt"/>
                             <constraint firstItem="lks-T1-81Y" firstAttribute="leading" secondItem="oM8-3a-VvN" secondAttribute="trailing" constant="10" id="uEG-rA-dz0"/>
-                            <constraint firstItem="HCN-yB-EFA" firstAttribute="leading" secondItem="4Wa-rt-aoI" secondAttribute="leading" constant="24" id="xfR-fr-WPe"/>
+                            <constraint firstItem="HCN-yB-EFA" firstAttribute="leading" secondItem="4Wa-rt-aoI" secondAttribute="leading" constant="10" id="xfR-fr-WPe"/>
+                            <constraint firstAttribute="trailing" secondItem="7cn-NZ-RWK" secondAttribute="trailing" constant="24" id="yEs-Rq-oIf"/>
                             <constraint firstItem="oM8-3a-VvN" firstAttribute="top" secondItem="aBA-JT-yKk" secondAttribute="bottom" constant="10" id="yxc-VK-VXw"/>
                         </constraints>
                     </view>
@@ -107,8 +110,9 @@
                 <constraint firstAttribute="bottom" secondItem="4Wa-rt-aoI" secondAttribute="bottom" id="wAh-cS-Iod"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
-            <size key="customSize" width="420" height="127"/>
+            <size key="customSize" width="337" height="113"/>
             <connections>
+                <outlet property="activityIndicator" destination="7o6-gI-7PL" id="A6j-hm-6Hz"/>
                 <outlet property="btFavourites" destination="lks-T1-81Y" id="LaI-2H-gN2"/>
                 <outlet property="imgNews" destination="HCN-yB-EFA" id="8cB-DZ-KUW"/>
                 <outlet property="lbNewsDay" destination="7cn-NZ-RWK" id="ibt-SV-8BS"/>
@@ -116,7 +120,10 @@
                 <outlet property="lbNewsMonth" destination="Ytt-wl-Suz" id="bkx-k1-liX"/>
                 <outlet property="lbNewsTitle" destination="aBA-JT-yKk" id="9ry-YQ-n01"/>
             </connections>
-            <point key="canvasLocation" x="-101" y="24"/>
+            <point key="canvasLocation" x="-60.14492753623189" y="28.459821428571427"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="unfavorite-news" width="256" height="256"/>
+    </resources>
 </document>
