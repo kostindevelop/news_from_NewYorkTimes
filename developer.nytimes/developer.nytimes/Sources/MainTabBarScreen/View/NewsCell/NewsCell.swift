@@ -8,10 +8,6 @@
 
 import UIKit
 
-protocol SelectedAddNewsToFavoritesProtocol {
-    func didTabAddNewsToFavoritesButton()
-}
-
 class NewsCell: UICollectionViewCell {
     
     @IBOutlet weak private var imgNews: CacheImageView!
@@ -22,8 +18,6 @@ class NewsCell: UICollectionViewCell {
     @IBOutlet weak private var btFavourites: UIButton!
 
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
-    
-    var delegate: SelectedAddNewsToFavoritesProtocol?
     
     var buttonAction: ((Any) -> Void)?
     
@@ -67,7 +61,10 @@ class NewsCell: UICollectionViewCell {
     }
     
     @IBAction func didTabAddNewsToFavouritesButton(_ sender: UIButton) {
+        btFavourites.setImage(UIImage(named: "favorite-news"), for: .normal)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            self.btFavourites.setImage(UIImage(named: "unfavorite-news"), for: .normal)
+        }
         buttonAction?(sender)
-//        delegate?.didTabAddNewsToFavoritesButton()
     }
 }

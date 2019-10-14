@@ -67,7 +67,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oct." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ytt-wl-Suz">
-                                <rect key="frame" x="273" y="79" width="40" height="21"/>
+                                <rect key="frame" x="273" y="78.5" width="40" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="TYs-2h-GJX"/>
                                 </constraints>
